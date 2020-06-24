@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercice 2</title>
+</head>
+
+<body>
+
+    <div>
+        <div class="row">
+            <div class="col-3">
+                <form method="post" action="traitement.php">
+                    <label>Nom</label> : <input type="text" name="nom" id="nom">
+            </div>
+
+            <div class="col-3">
+                <form method="post" action="traitement.php">
+                    <label>Prénom</label> : <input type="text" name="prénom" id="nom">
+            </div>
+
+            <div class="col-3">
+                <form method="post" action="traitement.php">
+                    <label for="start">Date de naissance:</label>
+                    <input type="date" id="nom" name="trip-start" value="2018-07-22" min="1930-01-01" max="2020-12-31">
+            </div>
+
+            <div class="col-3">
+                <label>Civilité : </label>
+                <select name="Civilité">
+                    <option>Marié</option>
+                    <option>Divorcé</option>
+                    <option>Célibataire</option>
+                    <option>Pacsé</option>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
